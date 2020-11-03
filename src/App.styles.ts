@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     body{
-        background-color: #fff;
+        background-color: #1F2740;
         background-size: cover;
         margin: 0;
         padding 0 20px;
@@ -28,19 +28,46 @@ export const GlobalStyle = createGlobalStyle`
 export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 700px;
+    align-items: left;
     
     > p {
-        color: #C0C0C0;
+        color: #708090;
+        font-family: 'Poppins', sans-serif;
     }
     
     .score {
-        color: #C0C0C0;
-        font-size: 1rem;
+        color: #C1D2D9;
+        font-size: 1.25rem;
         margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .score span{
+        color: #f9a73e;
+        font-family: 'Poppins', sans-serif;
     }
     
     h1 {
         color: #f9a73e;
+        font-family: 'Staatliches', regular;
+        font-size: 3.5rem;
     }
-`
+`;
+
+export const QuestionNumberDiv = styled.div`
+    width: 700px;
+    
+    .split-para { 
+        display:block;
+        color: #708090;
+        font-size: 1.25rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .split-para span { 
+        display:block;
+        float:right;
+        color:#C1D2D9;
+        font-family: 'Poppins', sans-serif;
+    }
+`;

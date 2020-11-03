@@ -6,7 +6,7 @@ import {Difficulty, fetchQuizQuestions, QuestionState} from "./API";
 import QuestionCard from "./components/QuestionCard";
 
 // Styles;
-import {Wrapper, GlobalStyle} from "./App.styles";
+import {QuestionNumberDiv, Wrapper, GlobalStyle} from "./App.styles";
 
 export type AnswerObject = {
     question: string;
@@ -84,13 +84,13 @@ const App = () => {
             <GlobalStyle />
         <Wrapper>
 
-            <h1>QUIZAPP</h1>
+            <h1>QuizApp</h1>
 
-            <p className="number">
-                Question: {number} / {TOTAL_QUESTIONS}
-            </p>
+            <QuestionNumberDiv>
+                <p className="split-para">Questions<span>{number + 1} of {TOTAL_QUESTIONS}</span></p>
+            </QuestionNumberDiv>
 
-            {!gameOver ? <p className="score">Score: {score}</p> : null}
+            {!gameOver ? <p className="score">Score: <span>{score}</span></p> : null}
 
             {loading && <p>Loading Questions...</p>}
             {!loading && !gameOver && (
