@@ -7,7 +7,7 @@ import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     html {
-        height: 100%
+        scroll-behavior: smooth;
     }
     
     body{
@@ -28,8 +28,9 @@ export const GlobalStyle = createGlobalStyle`
 export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 750px;
     align-items: left;
+    margin:0;
     
     > p {
         color: #708090;
@@ -41,6 +42,7 @@ export const Wrapper = styled.div`
         font-size: 1.25rem;
         margin: 0;
         font-family: 'Poppins', sans-serif;
+        
     }
     .score span{
         color: #f9a73e;
@@ -51,16 +53,47 @@ export const Wrapper = styled.div`
         color: #f9a73e;
         font-family: 'Staatliches', regular;
         font-size: 3.5rem;
+        margin-top:1rem;
+    }
+    
+    
+    .start, .next{
+        cursor: pointer;
+        background: #1F2740;
+        color: #C1D2D9;
+        outline:none;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        border:none;
+        display: inline-block;
+        text-align: right;
+    }
+    
+    .start{
+        text-align: center;
+    }
+    
+    .start, .next p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.25rem;
+    }
+    .start p{
+        font-size: 2rem;
+        color: #f9a73e;
+    }
+    
+    .next:hover{
+        color: #708090;
     }
 `;
 
 export const QuestionNumberDiv = styled.div`
-    width: 700px;
-    
+    width: 750px;
+ 
     .split-para { 
         display:block;
         color: #708090;
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-family: 'Poppins', sans-serif;
     }
 
@@ -70,4 +103,9 @@ export const QuestionNumberDiv = styled.div`
         color:#C1D2D9;
         font-family: 'Poppins', sans-serif;
     }
+`;
+
+export const AlignRight = styled.div`
+    width: 750px;
+    text-align: right;
 `;

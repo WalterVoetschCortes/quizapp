@@ -6,7 +6,7 @@ import {Difficulty, fetchQuizQuestions, QuestionState} from "./API";
 import QuestionCard from "./components/QuestionCard";
 
 // Styles;
-import {QuestionNumberDiv, Wrapper, GlobalStyle} from "./App.styles";
+import {AlignRight, QuestionNumberDiv, Wrapper, GlobalStyle} from "./styles/App.styles";
 
 export type AnswerObject = {
     question: string;
@@ -104,14 +104,16 @@ const App = () => {
                 />
             )}
             {!gameOver && !loading && userAnswers.length === number+1 && number !== TOTAL_QUESTIONS - 1 ? (
-                <button className="next" onClick={nextQuestion}>
-                    Next Question
-                </button>
+                <AlignRight>
+                    <button className="next" onClick={nextQuestion}>
+                        <p>next</p>
+                    </button>
+                </AlignRight>
             ): null}
 
-            {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
+            {(gameOver || userAnswers.length === TOTAL_QUESTIONS) && !loading  ? (
                 <button className="start" onClick={startTrivia}>
-                    Start
+                    <p>New Game</p>
                 </button>
             ): null}
 

@@ -3,6 +3,9 @@ import React from 'react';
 //types:
 import {AnswerObject} from "../App";
 
+//styles:
+import {ButtonDiv, QuestionCardDiv} from "../styles/QuestionCard.styles";
+
 type Props = {
     question: string;
     answers: string[];
@@ -21,19 +24,22 @@ const QuestionCard: React.FC<Props> = ({
                                            questionNr,
                                            totalQuestions
 }) => (
-    <div>
+    <QuestionCardDiv>
         <p dangerouslySetInnerHTML={{ __html:question}} />
         <div>
             {answers.map(answer => (
-                <div key={answer}>
-                    <button disabled={userAnswer ? true : false} value={answer} onClick={callback}>
+                <ButtonDiv
+                    key={answer}
+                    correct={userAnswer?.correctAnswer === answer}
+                    userClicked={userAnswer?.answer === answer}
+                >
+                    <button disabled={!!userAnswer} value={answer} onClick={callback}>
                         <span dangerouslySetInnerHTML={{ __html:answer }}/>
                     </button>
-                </div>
+                </ButtonDiv>
             ))}
         </div>
-    </div>
-
+    </QuestionCardDiv>
 );
 
 export default QuestionCard;
