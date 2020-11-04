@@ -1,0 +1,29 @@
+Index: src/App.tsx
+===================================================================
+--- src/App.tsx	(revision 071b2021698036ac17814b8c163af619bde8500c)
++++ src/App.tsx	(revision 071b2021698036ac17814b8c163af619bde8500c)
+@@ -1,9 +0,0 @@
+-import React from 'react';
+-
+-function App() {
+-    return <div className="App">Quiz</div>;
+-}
+-
+-export default App;
+-
+-
+Index: src/index.tsx
+===================================================================
+--- src/index.tsx	(revision 071b2021698036ac17814b8c163af619bde8500c)
++++ src/index.tsx	(revision 071b2021698036ac17814b8c163af619bde8500c)
+@@ -1,10 +0,0 @@
+-import React from 'react';
+-import ReactDOM from 'react-dom';
+-import App from './App';
+-
+-ReactDOM.render(
+-    <React.StrictMode>
+-        <App />
+-    </React.StrictMode>,
+-    document.getElementById('root')
+-);

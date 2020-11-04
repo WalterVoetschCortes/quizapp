@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd64676e-7208-49ec-a300-55d6e500c549" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="developer" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jauVbdUV9GWXS89N0nNrJyhflB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Users\walte\OneDrive\Dokumente\projects\2020\quizapp\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\walte\OneDrive\Dokumente\projects\2020\quizapp\src\styles" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd64676e-7208-49ec-a300-55d6e500c549" name="Default Changelist" comment="" />
+      <created>1604054547115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604054547115</updated>
+      <workItem from="1604054551969" duration="11579000" />
+      <workItem from="1604312232964" duration="9943000" />
+      <workItem from="1604387607189" duration="3312000" />
+      <workItem from="1604408354183" duration="18495000" />
+      <workItem from="1604492792728" duration="266000" />
+      <workItem from="1604493100561" duration="146000" />
+    </task>
+    <task id="LOCAL-00001" summary="dependencies setup">
+      <created>1604055976384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604055976384</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dependencies setup">
+      <created>1604056035829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604056035829</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added google font and component QuestionCard">
+      <created>1604057694644</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604057694644</updated>
+    </task>
+    <task id="LOCAL-00004" summary="developed QuestionCard component">
+      <created>1604058585359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604058585359</updated>
+    </task>
+    <task id="LOCAL-00005" summary="developed API.ts and App.tsx">
+      <created>1604133393029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604133393029</updated>
+    </task>
+    <task id="LOCAL-00006" summary="developed API.ts and App.tsx (01.11)">
+      <created>1604258475134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604258475134</updated>
+    </task>
+    <task id="LOCAL-00007" summary="developed QuestionCard.tsx and App.tsx">
+      <created>1604318584123</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604318584124</updated>
+    </task>
+    <task id="LOCAL-00008" summary="styles in App.styles.ts">
+      <created>1604326885284</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604326885285</updated>
+    </task>
+    <task id="LOCAL-00009" summary="styles in App.styles.ts (03.11)">
+      <created>1604412512283</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604412512283</updated>
+    </task>
+    <task id="LOCAL-00010" summary="styles in App.styles.ts and QuestionCard.styles.ts">
+      <created>1604488772342</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604488772342</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added A, B, C and D to the answers">
+      <created>1604491935011</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604491935011</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dependencies setup" />
+    <MESSAGE value="added google font and component QuestionCard" />
+    <MESSAGE value="developed QuestionCard component" />
+    <MESSAGE value="developed API.ts and App.tsx" />
+    <MESSAGE value="developed API.ts and App.tsx (01.11)" />
+    <MESSAGE value="developed QuestionCard.tsx and App.tsx" />
+    <MESSAGE value="styles in App.styles.ts" />
+    <MESSAGE value="styles in App.styles.ts (03.11)" />
+    <MESSAGE value="styles in App.styles.ts and QuestionCard.styles.ts" />
+    <MESSAGE value="added A, B, C and D to the answers" />
+    <option name="LAST_COMMIT_MESSAGE" value="added A, B, C and D to the answers" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1604491933706">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="227" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.-87.1024.728@0.0.1280.680" timestamp="1604488770525" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1604491933706" />
+    <state x="365" y="110" key="FileChooserDialogImpl" timestamp="1604422793895">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="2212" y="31" key="FileChooserDialogImpl/0.0.1280.680/1920.-87.1024.728@1920.-87.1024.728" timestamp="1604387659227" />
+    <state x="365" y="110" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604422793895" />
+    <state x="520" y="238" key="Github.ShareDialog" timestamp="1604054604503">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="520" y="238" key="Github.ShareDialog/0.0.1280.680/1920.-87.1024.728@0.0.1280.680" timestamp="1604054604503" />
+    <state x="376" y="61" key="RollbackChangesDialog" timestamp="1604055044406">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="376" y="61" key="RollbackChangesDialog/0.0.1280.680/1920.-87.1024.728@0.0.1280.680" timestamp="1604055044406" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1604493162744">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-87.1024.728@0.0.1280.680" timestamp="1604488776188" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604493162744" />
+    <state x="451" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604492874664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="451" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1604492874664" />
+    <state x="396" y="53" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604493122636">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="396" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680/1920.-87.1024.728@0.0.1280.680" timestamp="1604056095004" />
+    <state x="396" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1604493122636" />
+  </component>
+</project>
