@@ -20,6 +20,8 @@ type ButtonDivProps = {
 
 export const ButtonDiv = styled.div<ButtonDivProps>`
     transition: all 0.3 ease;
+    display: float;
+    margin-right: 2rem;
     
     :hover {
         opacity: 0.8;
@@ -29,6 +31,7 @@ export const ButtonDiv = styled.div<ButtonDivProps>`
         cursor: pointer;
         user-select: none;
         margin: 5px 0;
+        margin-left: 1rem;
         font-family: 'Poppins', sans-serif;
         background: ${({ correct, userClicked }) => 
             correct
@@ -44,6 +47,14 @@ export const ButtonDiv = styled.div<ButtonDivProps>`
         width:100%;
         height: 40px;
         font-size: 1rem;
+        display:block;
+    }
+    
+    p{
+        color:#708090;
     }
     
 `;
+
+
+

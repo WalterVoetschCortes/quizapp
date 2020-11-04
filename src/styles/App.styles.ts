@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
 export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
-    width: 750px;
+    width: 800px;
     align-items: left;
     margin:0;
     
@@ -54,6 +54,7 @@ export const Wrapper = styled.div`
         font-family: 'Staatliches', regular;
         font-size: 3.5rem;
         margin-top:1rem;
+        margin-bottom: 1rem;
     }
     
     
@@ -88,7 +89,8 @@ export const Wrapper = styled.div`
 `;
 
 export const QuestionNumberDiv = styled.div`
-    width: 750px;
+    width: 800px;
+    margin-top:0;
  
     .split-para { 
         display:block;
@@ -106,6 +108,6 @@ export const QuestionNumberDiv = styled.div`
 `;
 
 export const AlignRight = styled.div`
-    width: 750px;
+    width: 800px;
     text-align: right;
 `;
