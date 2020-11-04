@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Graphical user inteface
+
+You can see screenshots of the GUI below:
+
+![quizapp1](https://user-images.githubusercontent.com/64639703/98111149-761aca80-1ea0-11eb-9171-56f0e844d791.png)
+![quizapp2](https://user-images.githubusercontent.com/64639703/98111212-8af75e00-1ea0-11eb-9a9d-454f94611f97.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
